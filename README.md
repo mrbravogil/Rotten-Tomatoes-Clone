@@ -1,12 +1,39 @@
-# React + Vite
+# 🍅 Rotten Tomatoes Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Una aplicación web construida con **React + Vite + Tailwind CSS**, que consume datos de la API de IMDb vía **RapidAPI**, mostrando películas populares y series de TV en streaming.
 
-Currently, two official plugins are available:
+## Tecnologías utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React 18
+- Vite 
+- Tailwind CSS 
+- RapidAPI (API externa para datos de películas/TV)
+- `.env` para variables privadas
+- Backend proxy con Express 
+- Vercel 
+- Git y GitHub 
 
-## Expanding the ESLint configuration
+## Vista previa
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+# 🍅 Rotten Tomatoes Clone
+
+A web application built with **React + Vite + Tailwind CSS**, powered by **RapidAPI** to display popular movies and streaming TV shows.
+
+
+## Tech Stack
+
+- React 18
+- Vite 
+- Tailwind CSS 
+- RapidAPI (external API for movie/TV data)
+- `.env` for secure API key usage
+- Express backend proxy 
+- Vercel 
+- Git & GitHub 
+
+---
+
+## Preview
+
+---
