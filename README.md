@@ -16,6 +16,7 @@ Una aplicación web construida con **React + Vite + Tailwind CSS**, que consume 
 ## Vista previa
 
 ---
+
 # 🍅 Rotten Tomatoes Clone
 
 A web application built with **React + Vite + Tailwind CSS**, powered by **RapidAPI** to display popular movies and streaming TV shows.
@@ -32,8 +33,6 @@ A web application built with **React + Vite + Tailwind CSS**, powered by **Rapid
 - Vercel 
 - Git & GitHub 
 
----
-
 ## Preview
 
----
+
