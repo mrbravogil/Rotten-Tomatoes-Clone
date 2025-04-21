@@ -18,6 +18,9 @@ Una aplicación web construida con **React + Vite + Tailwind CSS**, que consume 
 
 ![Captura de pantalla 2025-04-21 a las 17 56 37](https://github.com/user-attachments/assets/fdd29f50-bbf7-430a-a2ae-77a5827b5360)
 
+![Captura de pantalla 2025-04-21 a las 17 56 51](https://github.com/user-attachments/assets/a63640e2-a24d-4b4b-b462-d21e1253a6da)
+
+![Captura de pantalla 2025-04-21 a las 17 57 09](https://github.com/user-attachments/assets/73753f42-6924-4e81-a8a1-740ac35e23bd)
 
 ---
 
@@ -40,4 +43,9 @@ A web application built with **React + Vite + Tailwind CSS**, powered by **Rapid
 
 ## Preview
 
+![Captura de pantalla 2025-04-21 a las 17 56 37](https://github.com/user-attachments/assets/fdd29f50-bbf7-430a-a2ae-77a5827b5360)
+
+![Captura de pantalla 2025-04-21 a las 17 56 51](https://github.com/user-attachments/assets/a63640e2-a24d-4b4b-b462-d21e1253a6da)
+
+![Captura de pantalla 2025-04-21 a las 17 57 09](https://github.com/user-attachments/assets/73753f42-6924-4e81-a8a1-740ac35e23bd)
 
