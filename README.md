@@ -5,6 +5,7 @@ Una aplicación web construida con **React + Vite + Tailwind CSS**, que consume 
 ## Tecnologías utilizadas
 
 - React 18
+- React Router
 - Vite 
 - Tailwind CSS 
 - RapidAPI (API externa para datos de películas/TV)
@@ -25,6 +26,7 @@ A web application built with **React + Vite + Tailwind CSS**, powered by **Rapid
 ## Tech Stack
 
 - React 18
+- React Router
 - Vite 
 - Tailwind CSS 
 - RapidAPI (external API for movie/TV data)
