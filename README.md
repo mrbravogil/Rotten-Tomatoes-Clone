@@ -16,6 +16,9 @@ Una aplicación web construida con **React + Vite + Tailwind CSS**, que consume 
 
 ## Vista previa
 
+![Captura de pantalla 2025-04-21 a las 17 56 37](https://github.com/user-attachments/assets/fdd29f50-bbf7-430a-a2ae-77a5827b5360)
+
+
 ---
 
 # 🍅 Rotten Tomatoes Clone
