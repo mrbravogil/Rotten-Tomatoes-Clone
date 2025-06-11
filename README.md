@@ -9,7 +9,6 @@ Una aplicación web construida con **React + Vite + Tailwind CSS**, que consume 
 - Vite 
 - Tailwind CSS 
 - RapidAPI (API externa para datos de películas/TV)
-- `.env` para variables privadas
 - Backend proxy con Express 
 - Vercel 
 - Git y GitHub 
@@ -36,7 +35,6 @@ A web application built with **React + Vite + Tailwind CSS**, powered by **Rapid
 - Vite 
 - Tailwind CSS 
 - RapidAPI (external API for movie/TV data)
-- `.env` for secure API key usage
 - Express backend proxy 
 - Vercel 
 - Git & GitHub 
