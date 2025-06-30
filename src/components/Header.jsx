@@ -7,7 +7,7 @@ function Header() {
         {/* Top nav */}
         <div className="bg-red-600 text-white mt-10 px-6 flex items-center justify-between text-nowrap">
         {/* Logo + Search */}
-        <div className="flex items-center gap-2 w-full p-10">
+        <div className="flex items-center gap-2 w-full p-5">
           <img src="/assets/img/tomato.png" alt="Logo" className="w-15 h-auto ml-4" />
     
             <Link to="/">
