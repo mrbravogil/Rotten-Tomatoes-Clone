@@ -12,7 +12,7 @@ function Header() {
     
             <Link to="/">
               <img
-                src="/assets/img/rottentomatoes.png"
+                src="/assets/img/rotten-tomatoes.png"
                 className="w-60"
                 loading="lazy"
                 alt="rotten-tomatoes"
