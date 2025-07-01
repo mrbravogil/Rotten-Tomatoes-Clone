@@ -5,31 +5,34 @@ function Header() {
     return (
       <header className="w-[80%] mx-auto items-center justify-center">
         {/* Top nav */}
-        <div className="bg-red-600 text-white mt-10 px-6 items-center justify-between text-nowrap grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
-        {/* Logo + Search */}
-        <div className="flex items-center gap-2 w-full p-5">
-          <img src="/assets/img/tomato.png" alt="Logo" className="w-10 lg:w-15 h-auto ml-4" />
+        <div className="bg-red-600 text-white mt-10 px-10 pb-5 py-6 items-center justify-between text-nowrap grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6">
+        {/* Logo */}
+        <div className="flex items-center gap-2 w-full">
+          <img src="/assets/img/tomato.png" alt="Logo" className="w-15 h-auto" />
     
             <Link to="/">
               <img
                 src="/assets/img/rotten-tomatoes.png"
-                className="w-50 lg:w-60"
+                className="w-60"
                 loading="lazy"
                 alt="rotten-tomatoes"
               />
             </Link>
 
-            {/* Search bar */}
-            <div className="flex-1 max-w-md">
+            
+          </div>
+          {/* Search bar */}
+          <div className="flex max-w-md justify-center items-center rounded-full bg-gray-600 opacity-80 text-white text-md lg:text-lg border border-white px-5 py-2 gap-5">
+              <img src="/assets/img/search.png" alt="search icon" className='w-8' />
               <input
                 type="text"
                 placeholder="Search"
-                className="w-full px-4 py-2 rounded-full bg-gray-600 opacity-80 text-white text-sm border border-white placeholder-white"
+                className="w-full placeholder-white bg-transparen border-none outline-none"
               />
             </div>
-          </div>
-          <div className="p-5 pl-10">
-            <ul className="flex lg:justify-end lg:items-end gap-6 font-semibold">
+            {/* Lista de links */}
+          <div className="">
+            <ul className="flex items-center lg:justify-end lg:items-end gap-6 font-semibold">
               <li className="hover:underline cursor-pointer"> <Link to="/movies">MOVIES</Link></li>
               <li className="hover:underline cursor-pointer"> <Link to="/tv-shows">TV SHOWS</Link></li>
               <li className="hover:underline cursor-pointer"> <Link to="*">NEWS</Link></li>
@@ -41,7 +44,7 @@ function Header() {
         </div>
   
         {/* Bottom nav */}
-        <div className="flex items-center justify-center bg-gray-600 text-white text-sm">
+        <div className="flex items-center justify-center bg-gray-600 text-white text-sm pl-5">
           <div className="flex gap-6 m-5">
           <p className="font-semibold text-yellow-500">🔥 TRENDING ON RT</p>
           <p className="hover:underline cursor-pointer">Box Office</p>
