@@ -30,7 +30,7 @@ function TVCollection() {
         ) : tvShows.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5">
             {tvShows.slice(0, 5).map((tvShow) => (
-              <Link to={`/tvShows/${tvShow.id}`} key={tvShow.id}>
+              <Link to={`/tv-shows/${tvShow.id}`} key={tvShow.id}>
               <div className="p-4 rounded-xl transition transform hover:shadow-lg hover:cursor-pointer">
                 {tvShow.image ? (
                   <img
