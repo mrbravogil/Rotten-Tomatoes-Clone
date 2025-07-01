@@ -8,12 +8,12 @@ function Header() {
         <div className="bg-red-600 text-white mt-10 px-10 pb-5 py-6 items-center justify-between text-nowrap grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6">
         {/* Logo */}
         <div className="flex items-center gap-2 w-full">
-          <img src="/assets/img/tomato.png" alt="Logo" className="w-15 h-auto" />
+          <img src="/assets/img/tomato.png" alt="Logo" className="w-8 h-auto" />
     
             <Link to="/">
               <img
                 src="/assets/img/rotten-tomatoes.png"
-                className="w-60"
+                className="w-50"
                 loading="lazy"
                 alt="rotten-tomatoes"
               />
@@ -22,8 +22,8 @@ function Header() {
             
           </div>
           {/* Search bar */}
-          <div className="flex max-w-md justify-center items-center rounded-full bg-gray-600 opacity-80 text-white text-md lg:text-lg border border-white px-5 py-2 gap-5">
-              <img src="/assets/img/search.png" alt="search icon" className='w-8' />
+          <div className="flex max-w-md justify-center items-center rounded-full bg-gray-600 opacity-80 text-white text-md lg:text-sm border border-white px-5 py-2 gap-5">
+              <img src="/assets/img/search.png" alt="search icon" className='w-4' />
               <input
                 type="text"
                 placeholder="Search"
