@@ -3,7 +3,7 @@ function Footer() {
       <footer className="w-[80%] mx-auto flex flex-col items-center justify-center bg-gray-800 text-white py-5">
         
         {/* Main Footer */}
-        <div className=" text-sm grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 lg:px-20 pb-10">
+        <div className=" text-sm grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 lg:px-10 pb-10">
           
           {/* Help */}
           <div className="flex flex-col gap-5 m-5">
