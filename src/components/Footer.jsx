@@ -1,35 +1,35 @@
 function Footer() {
     return (
-      <footer className="w-[80%] mx-auto flex flex-col items-center justify-center bg-gray-800 text-white">
+      <footer className="w-[80%] mx-auto flex flex-col items-center justify-center bg-gray-800 text-white py-5">
         
         {/* Main Footer */}
-        <div className=" text-sm grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 pb-10">
+        <div className=" text-sm grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 lg:px-20 pb-10">
           
           {/* Help */}
-          <div className="flex flex-col gap-2 m-5">
+          <div className="flex flex-col gap-5 m-5">
           <p className="">Help</p>
           <p className="">About Rotten Tomatoes</p>
           </div>
            {/* Careers */}
-           <div className="flex flex-col gap-2 m-5">
+           <div className="flex flex-col gap-5 m-5">
           <p className="">Critic Submission</p>
           <p className="">Licensing</p>
           <p className="">Advertise with Us</p>
           <p className="">Careers</p>
           </div>
            {/* Newsletter */}
-           <div className="flex flex-col gap-5 m-5 items-center text-center ml-auto">
+           <div className="flex flex-col gap-5 m-5">
           <p className="text-lg text-nowrap font-bold">JOIN THE NEWSLETTER</p>
           <p className="">Get the freshest reviews, news, and more delivered right to your inbox!</p>
-          <button className="bg-blue-600 w-[80%] p-3 rounded font-bold text-[85%] text-nowrap ">JOIN THE NEWSLETTER</button>
+          <button className="bg-blue-600 w-[80%] p-3 rounded-lg font-bold text-[85%] text-nowrap ">JOIN THE NEWSLETTER</button>
           </div>
            {/* Social Media */}
-          <div className="flex flex-col gap-2 m-5 ml-auto">
-            <h1 className="text-lg  font-bold">FOLLOW US</h1>
-          <div className="flex p-5">
-            <a href="https://www.facebook.com/rottentomatoes" target="blank"><img src="/src/assets/img/facebook-iconwhite.png" className="w-[40%]" alt="" /></a>
-            <a href="https://www.instagram.com/rottentomatoes/" target="blank"><img src="/src/assets/img/instagram-iconwhite.png" className="w-[40%]" alt="" /></a>
-            <a href="https://www.youtube.com/user/rottentomatoes" target="blank"><img src="/src/assets/img/youtube-iconwhite.png" className="w-[40%]" alt="" /></a>
+          <div className="flex flex-col gap-5 m-5 lg:pl-5">
+            <h1 className="text-lg font-bold">FOLLOW US</h1>
+          <div className="flex">
+            <a href="https://www.facebook.com/rottentomatoes" target="blank"><img src="/assets/img/facebook-iconwhite.png" className="w-[40%]" alt="" /></a>
+            <a href="https://www.instagram.com/rottentomatoes/" target="blank"><img src="/assets/img/instagram-iconwhite.png" className="w-[40%]" alt="" /></a>
+            <a href="https://www.youtube.com/user/rottentomatoes" target="blank"><img src="/assets/img/youtube-iconwhite.png" className="w-[40%]" alt="" /></a>
           </div>
           </div>
             

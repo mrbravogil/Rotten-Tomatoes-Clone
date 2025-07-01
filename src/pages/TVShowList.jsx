@@ -1,21 +1,13 @@
 import { useEffect, useState } from 'react';
+import tvShowsData from '../data/tvShows';
 
 function TVShowList() {
   const [tvShows, setTvShows] = useState([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('http://localhost:5000/api/tvshows')
-      .then(res => res.json())
-      .then(data => {
-        console.log('TV Shows obtenidas de la base de datos:', data);
-        setTvShows(data);
-        setLoading(false);
-      })
-      .catch(error => {
-        console.error('Error al obtener las series:', error);
-        setLoading(false);
-      });
+    setTvShows(tvShowsData);
+    setLoading(false);
   }, []);
 
   if (loading) {
@@ -29,12 +21,12 @@ function TVShowList() {
         {tvShows.map(tvShow => (
           <div
             key={tvShow.id}
-            className="bg-white flex flex-col p-5 rounded-2xl shadow-md transition transform hover:scale-105 hover:shadow-lg"
+            className="bg-white flex flex-col p-5 rounded-2xl shadow-md transition transform hover:scale-105 hover:shadow-lg hover:cursor-pointer"
           >
             <img
               src={tvShow.image}
               alt={tvShow.title}
-              className="w-full h-[90%] rounded-md"
+              className="w-full h-[90%] object-cover rounded-md"
             />
             <div className="p-4">
               <h2 className="text-xl font-semibold mb-2">{tvShow.title}</h2>

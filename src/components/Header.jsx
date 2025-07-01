@@ -3,17 +3,17 @@ import { Link } from 'react-router-dom';
 
 function Header() {
     return (
-      <header className="w-[80%] mx-auto items-center justify-center bg-gray-100">
+      <header className="w-[80%] mx-auto items-center justify-center">
         {/* Top nav */}
-        <div className="bg-red-600 text-white mt-10 px-6 flex items-center justify-between text-nowrap">
+        <div className="bg-red-600 text-white mt-10 px-6 flex items-center justify-between text-nowrap grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
         {/* Logo + Search */}
         <div className="flex items-center gap-2 w-full p-5">
-          <img src="/assets/img/tomato.png" alt="Logo" className="w-15 h-auto ml-4" />
+          <img src="/assets/img/tomato.png" alt="Logo" className="w-10 lg:w-15 h-auto ml-4" />
     
             <Link to="/">
               <img
                 src="/assets/img/rotten-tomatoes.png"
-                className="w-60"
+                className="w-50 lg:w-60"
                 loading="lazy"
                 alt="rotten-tomatoes"
               />
@@ -28,8 +28,8 @@ function Header() {
               />
             </div>
           </div>
-          <div className="ml-auto p-5">
-            <ul className="flex justify-end items-end gap-6 font-semibold">
+          <div className="p-5 pl-10">
+            <ul className="flex lg:justify-end lg:items-end gap-6 font-semibold">
               <li className="hover:underline cursor-pointer"> <Link to="/movies">MOVIES</Link></li>
               <li className="hover:underline cursor-pointer"> <Link to="/tv-shows">TV SHOWS</Link></li>
               <li className="hover:underline cursor-pointer"> <Link to="*">NEWS</Link></li>
