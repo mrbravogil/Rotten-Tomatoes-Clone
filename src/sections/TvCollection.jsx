@@ -8,6 +8,7 @@ function TVCollection() {
 
   useEffect(() => {
     const results = tvshowData.map((tvShow) => ({
+      id: tvShow.id,
       title: tvShow.title || 'Sin título',
       image: tvShow.image || '',
     }));
@@ -28,8 +29,9 @@ function TVCollection() {
           <p className=" h-32">Loading...</p>
         ) : tvShows.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5">
-            {tvShows.slice(0, 5).map((tvShow, index) => (
-              <div key={index} className="p-4 rounded-xl transition transform hover:shadow-lg hover:cursor-pointer">
+            {tvShows.slice(0, 5).map((tvShow) => (
+              <Link to={`/tvShows/${tvShow.id}`} key={tvShow.id}>
+              <div className="p-4 rounded-xl transition transform hover:shadow-lg hover:cursor-pointer">
                 {tvShow.image ? (
                   <img
                     src={tvShow.image}
@@ -44,6 +46,7 @@ function TVCollection() {
                 )}
                 <h2 className="mt-5 text-md font-bold">{tvShow.title}</h2>
               </div>
+              </Link>
             ))}
           </div>
         ) : (
