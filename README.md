@@ -8,8 +8,9 @@ Opcionalmente, puede integrarse un backend con Node.js, Express, Prisma y MySQL 
 - React 18
 - React Router
 - Vite 
-- Tailwind CSS 
-- Backend proxy con Express 
+- Tailwind CSS
+- Base de Datos desde Frontend
+- Opcional: Backend proxy con Express 
 
 ## Vista previa
 
@@ -29,8 +30,8 @@ Optionally, it can be integrated with a backend using Node.js, Express, Prisma, 
 - React Router
 - Vite 
 - Tailwind CSS 
-- RapidAPI (external API for movie/TV data)
-- Express backend proxy 
+- Frontend run Database
+- Optional: Express backend proxy 
 
 ## Preview
 
