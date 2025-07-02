@@ -1,6 +1,7 @@
 # 🍅 Rotten Tomatoes Clone
 
-Una aplicación web construida con **React + Vite + Tailwind CSS**, que consume datos desde el frontend mostrando películas populares y series de TV en streaming.
+Una aplicación web construida con **React + Vite + Tailwind CSS**, que consume datos desde el frontend mostrando películas populares y series de TV en streaming. 
+Opcionalmente, puede integrarse un backend con Node.js, Express, Prisma y MySQL para gestionar una base de datos personalizada desde el servidor.
 
 ## Tecnologías utilizadas
 
@@ -19,6 +20,7 @@ Una aplicación web construida con **React + Vite + Tailwind CSS**, que consume 
 # 🍅 Rotten Tomatoes Clone
 
 A web application built with **React + Vite + Tailwind CSS**, with frontend data storage to display popular movies and streaming TV shows.
+Optionally, it can be integrated with a backend using Node.js, Express, Prisma, and MySQL to manage a custom database from the server.
 
 
 ## Tech Stack
