@@ -1,9 +1,30 @@
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import movies from '../data/movies';
 import tvShows from '../data/tvShows';
 import SearchBar from './SearchBar';
 
 function Header() {
+  const [placeholder, setPlaceholder] = useState("Search movies or TV shows...");
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth <= 640) {
+        setPlaceholder("Search...");
+      } else {
+        setPlaceholder("Search movies or TV shows...");
+      }
+    };
+
+    // Llama a handleResize al cargar la página y al cambiar el tamaño de la ventana
+    handleResize();
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   const combinedData = [
     ...movies.map((movie) => ({ ...movie, type: 'movie' })),
     ...tvShows.map((tvShow) => ({ ...tvShow, type: 'tvShow' })),
@@ -27,7 +48,7 @@ function Header() {
         </div>
         {/* Search bar */}
         <SearchBar
-          placeholder="Search movies or TV shows..."
+          placeholder={placeholder} // Usa el placeholder dinámico
           data={combinedData}
           onSearch={(value) => console.log(value)} // Maneja la búsqueda aquí
           className="w-full max-w-md mx-auto"
@@ -49,7 +70,7 @@ function Header() {
       </div>
 
       {/* Bottom nav */}
-      <div className="flex items-center justify-center bg-gray-600 text-white text-sm pl-5">
+      <div className="flex items-center justify-center bg-gray-600 text-white text-sm px-10 lg:px-5">
         <div className="flex gap-6 m-5">
           <p className="font-semibold text-yellow-500">🔥 TRENDING ON RT</p>
           <p className="hover:underline cursor-pointer">Box Office</p>

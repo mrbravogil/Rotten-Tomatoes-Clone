@@ -37,7 +37,7 @@ function Footer() {
       {/* Secondary Footer */}
       <div className="w-full mb-5">
         <ul className="text-sm items-center justify-center grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 p-4 text-center">
-          <li className="whitespace-nowrap border-r border-gray-600">Privacy Policy</li>
+          <li className="whitespace-nowrap border-l border-r border-gray-600">Privacy Policy</li>
           <li className="whitespace-nowrap border-r border-gray-600">Terms and Policies</li>
           <li className="whitespace-nowrap border-r border-gray-600">Cookie Preferences</li>
           <li className="whitespace-nowrap border-r border-gray-600">California Notice</li>
