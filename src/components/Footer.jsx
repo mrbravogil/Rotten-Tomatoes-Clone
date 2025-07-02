@@ -1,6 +1,6 @@
 function Footer() {
     return (
-      <footer className="w-[80%] mx-auto flex flex-col items-center justify-center bg-gray-800 text-white py-5">
+      <footer className="w-[90%] lg:w-[80%] mx-auto flex flex-col items-center justify-center bg-gray-800 text-white py-5 px-5">
         
         {/* Main Footer */}
         <div className=" text-sm grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 lg:px-10 pb-10">
@@ -42,7 +42,7 @@ function Footer() {
           <li className="whitespace-nowrap border-r border-gray-600">Cookie Preferences</li>
           <li className="whitespace-nowrap border-r border-gray-600">California Notice</li>
           <li className="whitespace-nowrap border-r border-gray-600">Ad Choices</li>
-          <li className="whitespace-nowrap">Accessibility</li>
+          <li className="whitespace-nowrap border-r border-gray-600">Accessibility</li>
         </ul>
           {/* Project Tag */}
           <p className="flex items-center justify-center text-gray-500 text-sm pt-5">Rotten Tomatoes Clone | Maria Bravo </p>

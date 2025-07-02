@@ -10,9 +10,9 @@ function Header() {
   ];
 
   return (
-    <header className="w-[80%] mx-auto items-center justify-center">
+    <header className="w-[90%] lg:w-[80%] mx-auto items-center justify-center">
       {/* Top nav */}
-      <div className="bg-red-600 text-white mt-10 px-10 pb-5 py-6 items-center justify-between text-nowrap grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6">
+      <div className="bg-red-600 text-white mt-5 lg:mt-10 px-10 pb-5 py-6 items-center justify-between text-nowrap grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6">
         {/* Logo */}
         <div className="flex items-center gap-2 w-full">
           <img src="/assets/img/tomato.png" alt="Logo" className="w-10 h-auto" />
