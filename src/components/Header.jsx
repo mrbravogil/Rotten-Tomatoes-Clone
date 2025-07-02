@@ -70,7 +70,7 @@ function Header() {
       </div>
 
       {/* Bottom nav */}
-      <div className="flex items-center justify-center bg-gray-600 text-white text-sm px-10 lg:px-5">
+      <div className="flex items-center justify-center bg-gray-600 text-white text-sm pl-8">
         <div className="flex gap-6 m-5">
           <p className="font-semibold text-yellow-500">🔥 TRENDING ON RT</p>
           <p className="hover:underline cursor-pointer">Box Office</p>
